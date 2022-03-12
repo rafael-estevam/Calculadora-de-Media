@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto Mono',monospace;
+  background-color: #f5f2d0;
+  background-image: url('https://img.freepik.com/fotos-gratis/os-pasteis-coloridos-ou-o-lapis-da-cor-ajustaram-se-na-escala-isolada-no-fundo-branco_101276-149.jpg?w=740');
+  background-position:center;
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+}
+
+.container {
+  text-align: center;
+}
+
+.page-title {
+  color:#000;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color:#000;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.resultado {
+  color:#000;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.input-padrao {
+  padding: 10px;
+  border-radius:10px;
+  margin: 5px;
+}
+
+.botao {
+  margin: 5px;
+  padding: 10px;
+  border-radius:10px;
+  font-size:14px;
+}
