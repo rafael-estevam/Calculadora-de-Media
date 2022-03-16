@@ -22,11 +22,11 @@ function Calcular () {
  
   var resultado = document.getElementById("resultado")
   if (aprovado){
-    var aviso = "Parabéns "+nome+"! Foste aprovado com média "+notaFinal;
+    var aviso = "ParabÃ©ns "+nome+"! Foste aprovad@ com mÃ©dia "+notaFinal;
     resultado.innerHTML = aviso;
   }
   else {
-    var aviso = "Não foi dessa vez :( " + "Sua média foi apenas de "+notaFinal
+    var aviso = "NÃ£o foi dessa vez :( " + "Sua mÃ©dia foi apenas de "+notaFinal
     resultado.innerHTML = aviso;
   } 
   
